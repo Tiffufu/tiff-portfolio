@@ -1,67 +1,31 @@
-.splash-header {
-    width:100%;
-    min-height: 750px;
-    margin:0 auto 30px;
-    padding:10px 0;
-    background:url(../img/bicycle-splash3.jpg) top center no-repeat fixed;
-    background-size:100%;
+.header {
+  margin-top: 6rem;
 }
 
-@media screen and (max-width:1500px){
-  background-size:auto;
-}
-
-.splash-text-bubble {
-  width: 45%;
-  height:0;
-  padding-bottom: 45%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: white;
-  z-index:10;
-  left: 3%;
-  top: 3%;
-  opacity: 0.85;
-  position: absolute;
-}
-
-.bubble-text {
-  z-index:10;
-  left: 5%;
-  top: 23%;
-  position:absolute;
-  text-align:center;
-  background:white;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-    width: 50%;
-    height:50%;
-    padding:5%;
-      opacity: 0.85;
-}
-
-
-.navigation {
-    position: relative;
-    width: 50%;
-    padding-bottom: 25%;
-    overflow: hidden;
-    background: #4679BD;
-}
-
-/*Scrolling navigation*/
-header {
-  padding: 154px 0 100px;
-}
-
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
+.header {
+  &__title {
+    font-family: 'American Typewriter', Arial, sans-serif;
+    font-size: 3rem;
+    color: #488B8F;
   }
-}
-
-section {
-  padding: 150px 0;
+  &__subtitle {
+    font-size: 1.3rem;
+    color: #434343; 
+  }
+  &__intro {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+    color: #535353;
+  }
+  &__photo img {
+    height: 300px;
+    width: 300px;
+  }
+  hr {
+    border: #ADD2C9 solid 2.5px;
+    width: 100px;
+    margin:0;
+  }
 }
