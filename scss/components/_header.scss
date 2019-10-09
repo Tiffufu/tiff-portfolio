@@ -4,20 +4,16 @@
 
 .header {
   &__title {
-    font-family: 'American Typewriter', Arial, sans-serif;
-    font-size: 3rem;
-    color: #488B8F;
+    color: $color-emperor;
   }
   &__subtitle {
+    color: $color-emperor; 
     font-size: 1.3rem;
-    color: #434343; 
   }
   &__intro {
-    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 1rem;
-    margin-top: 1rem;
     line-height: 2rem;
-    color: #535353;
+    margin-top: 1rem;
   }
   &__photo img {
     height: 300px;
@@ -25,7 +21,7 @@
   }
   hr {
     border: #ADD2C9 solid 2.5px;
-    width: 100px;
     margin:0;
+    width: 100px;
   }
 }

@@ -7022,10 +7022,20 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /**************************************
+* COLORS
+* All color variables
+* Colors chosen using http://chir.ag/projects/name-that-color/
+**************************************/
+/**************************************
 * FONT & TYPOGRAPHY
 * Everything for the website typography:
 * font-family, size, spacing, color
 **************************************/
+body {
+  background-color: #ffffff;
+  color: #505050;
+  font-family: "Poppins", Arial, Helvetica, sans-serif; }
+
 /**************************************
 * FONT & TYPOGRAPHY
 * Generates typography classes based on
@@ -7066,71 +7076,63 @@ body,
   line-height: 1.9375em; }
 
 h1, .h1 {
-  line-height: 1.27215rem; }
+  line-height: 2.19735rem; }
 
 h2, .h2 {
-  line-height: 1.10605rem; }
+  line-height: 1.91045rem; }
 
 h3, .h3 {
-  line-height: 0.96195rem; }
+  line-height: 1.66155rem; }
 
 h4, .h4 {
-  line-height: 0.83655rem; }
+  line-height: 1.44495rem; }
 
 h5, .h5 {
-  line-height: 0.7271rem; }
+  line-height: 1.2559rem; }
 
 h6, .h6 {
-  line-height: 0.6325rem; }
+  line-height: 1.0925rem; }
 
 small,
 .small {
   line-height: 0.4785rem; }
 
-li.nav-item {
-  font-family: "Poppins", Arial, Helvetica, sans-serif; }
-
-a.active {
-  border-bottom: 1.8px dashed black; }
-
-a:hover {
-  color: #042a2b; }
-
-li.nav-item:hover {
-  background-color: #e7e247;
-  border-radius: 11px; }
-
-.nav {
-  margin: 1rem; }
-
 .nav-link {
-  color: black;
-  padding: .1rem .5rem;
-  margin: 1rem 2rem;
+  color: #767676;
   font-size: 1.01rem;
-  letter-spacing: 0.01rem; }
+  letter-spacing: 0.15rem;
+  margin: 0 1em;
+  padding: .4rem .5rem; }
 
-body {
-  background-color: #FAF9F9; }
+li.nav-item {
+  border-top: 9px solid transparent; }
+  li.nav-item:hover {
+    border-top: 9px solid #a5e3e6; }
+
+li.nav-item.active {
+  border-top: 9px solid #14D5DD; }
+  li.nav-item.active:hover {
+    border-top: 9px solid #11b7be; }
+  li.nav-item.active a {
+    color: #2C2C2C; }
+
+li.nav-item a:hover {
+  color: #2C2C2C; }
 
 .header {
   margin-top: 6rem; }
 
 .header__title {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  color: #488B8F; }
+  color: #505050; }
 
 .header__subtitle {
-  font-size: 1.3rem;
-  color: #434343; }
+  color: #505050;
+  font-size: 1.3rem; }
 
 .header__intro {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  margin-top: 1rem;
   line-height: 2rem;
-  color: #535353; }
+  margin-top: 1rem; }
 
 .header__photo img {
   height: 300px;
@@ -7138,5 +7140,27 @@ body {
 
 .header hr {
   border: #ADD2C9 solid 2.5px;
-  width: 100px;
-  margin: 0; }
+  margin: 0;
+  width: 100px; }
+
+.nav-link {
+  color: #767676;
+  font-size: 1.01rem;
+  letter-spacing: 0.15rem;
+  margin: 0 1em;
+  padding: .4rem .5rem; }
+
+li.nav-item {
+  border-top: 9px solid transparent; }
+  li.nav-item:hover {
+    border-top: 9px solid #a5e3e6; }
+
+li.nav-item.active {
+  border-top: 9px solid #14D5DD; }
+  li.nav-item.active:hover {
+    border-top: 9px solid #11b7be; }
+  li.nav-item.active a {
+    color: #2C2C2C; }
+
+li.nav-item a:hover {
+  color: #2C2C2C; }
