@@ -1,4 +1,16 @@
 /**************************************
+* COLORS
+* All color variables
+* Colors chosen using http://chir.ag/projects/name-that-color/
+**************************************/
+
+$color-bright-turquoise: #14D5DD;
+$color-emperor: #505050;
+$color-boulder: #767676;
+$color-mine-shaft: #2C2C2C;
+
+
+/**************************************
 * FONT & TYPOGRAPHY
 * Everything for the website typography:
 * font-family, size, spacing, color
@@ -21,11 +33,11 @@ $font-sizes: (
 // Spacing, line-height --------------------<<
 $line-height: (
     body: 1.9375em,
-    h1: map-get($font-sizes, h1) * 0.55,
-    h2: map-get($font-sizes, h2) * 0.55,
-    h3: map-get($font-sizes, h3) * 0.55,
-    h4: map-get($font-sizes, h4) * 0.55,
-    h5: map-get($font-sizes, h5) * 0.55,
-    h6: map-get($font-sizes, h6) * 0.55,
+    h1: map-get($font-sizes, h1) * 0.95,
+    h2: map-get($font-sizes, h2) * 0.95,
+    h3: map-get($font-sizes, h3) * 0.95,
+    h4: map-get($font-sizes, h4) * 0.95,
+    h5: map-get($font-sizes, h5) * 0.95,
+    h6: map-get($font-sizes, h6) * 0.95,
     small: map-get($font-sizes, small) * 0.55,
 );

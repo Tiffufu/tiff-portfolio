@@ -4,20 +4,16 @@
 
 .header {
   &__title {
-    font-family: $font-family;
-    font-size: 3rem;
-    color: #488B8F;
+    color: $color-emperor;
   }
   &__subtitle {
     font-size: 1.3rem;
-    color: #434343; 
+    color: $color-emperor; 
   }
   &__intro {
-    font-family: $font-family;
     font-size: 1rem;
     margin-top: 1rem;
     line-height: 2rem;
-    color: #535353;
   }
   &__photo img {
     height: 300px;
