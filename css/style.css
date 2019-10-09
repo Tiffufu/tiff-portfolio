@@ -7032,9 +7032,9 @@ a.text-dark:hover, a.text-dark:focus {
 * font-family, size, spacing, color
 **************************************/
 body {
-  background-color: #FAF9F9;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  color: #505050; }
+  background-color: #ffffff;
+  color: #505050;
+  font-family: "Poppins", Arial, Helvetica, sans-serif; }
 
 /**************************************
 * FONT & TYPOGRAPHY
@@ -7099,10 +7099,10 @@ small,
 
 .nav-link {
   color: #767676;
-  padding: .4rem .5rem;
   font-size: 1.01rem;
+  letter-spacing: 0.15rem;
   margin: 0 1em;
-  letter-spacing: 0.15rem; }
+  padding: .4rem .5rem; }
 
 li.nav-item {
   border-top: 9px solid transparent; }
@@ -7126,13 +7126,13 @@ li.nav-item a:hover {
   color: #505050; }
 
 .header__subtitle {
-  font-size: 1.3rem;
-  color: #505050; }
+  color: #505050;
+  font-size: 1.3rem; }
 
 .header__intro {
   font-size: 1rem;
-  margin-top: 1rem;
-  line-height: 2rem; }
+  line-height: 2rem;
+  margin-top: 1rem; }
 
 .header__photo img {
   height: 300px;
@@ -7140,15 +7140,15 @@ li.nav-item a:hover {
 
 .header hr {
   border: #ADD2C9 solid 2.5px;
-  width: 100px;
-  margin: 0; }
+  margin: 0;
+  width: 100px; }
 
 .nav-link {
   color: #767676;
-  padding: .4rem .5rem;
   font-size: 1.01rem;
+  letter-spacing: 0.15rem;
   margin: 0 1em;
-  letter-spacing: 0.15rem; }
+  padding: .4rem .5rem; }
 
 li.nav-item {
   border-top: 9px solid transparent; }
