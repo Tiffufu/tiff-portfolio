@@ -3,15 +3,12 @@
 // Base
 
 @import 'base/variables';
-@import 'base/mixins';
-@import 'base/reset';
+@import "base/layout.scss";
 @import 'base/typography';
-
-@import "navigation.scss";
-@import "layout.scss";
-@import "header.scss"; 
 
 
 // Components
+@import "components/navigation.scss";
+@import "components/header.scss"; 
 @import 'components/buttons';
 @import 'components/navigation';
