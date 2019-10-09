@@ -22,7 +22,7 @@ $slant: -16deg;
     height: 120%;
     width: 200%;
     background-image: $gradient-banner;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.16);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.11);
     transform: rotateZ($slant) skew($slant);
 
     // Need to modify this

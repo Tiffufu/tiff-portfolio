@@ -7105,11 +7105,11 @@ small,
 
 .nav {
   flex-wrap: wrap;
-  padding-left: 0;
-  top: 0;
   list-style: none;
+  padding-left: 0;
   position: absolute;
-  right: 0; }
+  right: 0;
+  top: 0; }
 
 .nav-link {
   color: #767676;
@@ -7149,8 +7149,8 @@ li.nav-item a:hover {
     left: -24%;
     height: 120%;
     width: 200%;
-    background-image: linear-gradient(#FDFBFB, #EBEDEE);
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(#FEFDFD, #F8F9F9);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.11);
     transform: rotateZ(-16deg) skew(-16deg); }
     @media (500px) {
       .header:before {
@@ -7158,11 +7158,11 @@ li.nav-item a:hover {
 
 .nav {
   flex-wrap: wrap;
-  padding-left: 0;
-  top: 0;
   list-style: none;
+  padding-left: 0;
   position: absolute;
-  right: 0; }
+  right: 0;
+  top: 0; }
 
 .nav-link {
   color: #767676;
