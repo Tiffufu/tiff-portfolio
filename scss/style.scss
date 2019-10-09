@@ -1,0 +1,14 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+// Base
+
+@import 'base/variables';
+@import "base/body.scss";
+@import 'base/typography';
+
+
+// Components
+@import "components/navigation.scss";
+@import "components/header.scss"; 
+@import 'components/buttons';
+@import 'components/navigation';
