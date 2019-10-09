@@ -7034,7 +7034,13 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   background-color: #ffffff;
   color: #505050;
-  font-family: "Poppins", Arial, Helvetica, sans-serif; }
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
 
 /**************************************
 * FONT & TYPOGRAPHY
@@ -7097,6 +7103,14 @@ small,
 .small {
   line-height: 0.4785rem; }
 
+.nav {
+  flex-wrap: wrap;
+  padding-left: 0;
+  top: 0;
+  list-style: none;
+  position: absolute;
+  right: 0; }
+
 .nav-link {
   color: #767676;
   font-size: 1.01rem;
@@ -7120,28 +7134,35 @@ li.nav-item a:hover {
   color: #2C2C2C; }
 
 .header {
-  margin-top: 6rem; }
+  background-blend-mode: multiply;
+  background-position: 50% 0%;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+  .header:before {
+    content: '';
+    display: block;
+    position: relative;
+    top: -73%;
+    left: -24%;
+    height: 120%;
+    width: 200%;
+    background-image: linear-gradient(#FDFBFB, #EBEDEE);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.16);
+    transform: rotateZ(-16deg) skew(-16deg); }
+    @media (500px) {
+      .header:before {
+        transform: rotateZ(0deg) skew(0deg); } }
 
-.header__title {
-  color: #505050; }
-
-.header__subtitle {
-  color: #505050;
-  font-size: 1.3rem; }
-
-.header__intro {
-  font-size: 1rem;
-  line-height: 2rem;
-  margin-top: 1rem; }
-
-.header__photo img {
-  height: 300px;
-  width: 300px; }
-
-.header hr {
-  border: #ADD2C9 solid 2.5px;
-  margin: 0;
-  width: 100px; }
+.nav {
+  flex-wrap: wrap;
+  padding-left: 0;
+  top: 0;
+  list-style: none;
+  position: absolute;
+  right: 0; }
 
 .nav-link {
   color: #767676;

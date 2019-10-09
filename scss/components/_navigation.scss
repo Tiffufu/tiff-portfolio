@@ -1,3 +1,18 @@
+.nav {
+    flex-wrap: wrap;
+
+    padding-left: 0;
+    
+    top: 0;
+    
+    list-style: none;
+    
+    position: absolute;
+    
+    right: 0;
+}
+
+
 // Overall style for navigation section
 .nav-link {
     color: $color-boulder;
