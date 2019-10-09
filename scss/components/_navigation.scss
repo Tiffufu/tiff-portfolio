@@ -1,12 +1,13 @@
-
-
-li.nav-item.active {
-    border-top: 9px solid $color-bright-turquoise;
-    a {
-        color: $color-mine-shaft;
-    }
+// Overall style for navigation section
+.nav-link {
+    color: $color-boulder;
+    padding: .4rem .5rem;
+    font-size: 1.01rem;
+    margin: 0 1em;
+    letter-spacing: 0.15rem;
 }
 
+// Set styling for navigation links
 li.nav-item {
     border-top: 9px solid transparent;
     &:hover {
@@ -14,15 +15,16 @@ li.nav-item {
     }
 }
 
-li.nav-item a:hover {
-    color: $color-mine-shaft;
+li.nav-item.active {
+    border-top: 9px solid $color-bright-turquoise;
+    &:hover {
+        border-top: 9px solid darken(saturate($color-bright-turquoise, 0.17), 6.67);
+    }
+    a {
+        color: $color-mine-shaft;
+    }
 }
 
-
-.nav-link {
-    color: $color-boulder;
-    padding: .4rem .5rem;
-    font-size: 1.01rem;
-    margin: 0 1em;
-    letter-spacing: 0.01rem;
+li.nav-item a:hover {
+    color: $color-mine-shaft;
 }
