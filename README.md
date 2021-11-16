@@ -1,6 +1,6 @@
-# Installation
-To install dependencies
-`npm run sass`
+# portfolio-revamp
+This is a work in progress portfolio
 
-# How to compile Sass
-`npm run sass`
+
+## Using Tailwind
+To build Tailwind, run `npm run build-css`
