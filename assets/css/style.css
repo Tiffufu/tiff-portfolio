@@ -3,7 +3,7 @@
 # General
 --------------------------------------------------------------*/
 * {
-  line-height: 2rem;
+  line-height: 1.75rem;
 }
 
 html, body {
@@ -311,8 +311,15 @@ rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 # Case Study Styles
 --------------------------------------------------------------*/
 .left-bar {
-      border-left: 8px solid gainsboro;
+      border-left: 8px solid #e8e8e8;
       padding-left: 1rem;
+}
+
+.bottom-bar {
+  border-bottom: 8px solid #e8e8e8;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 3.5rem;
 }
 
 

@@ -17717,6 +17717,11 @@ video {
 }
 
 p {
+  margin-bottom: 1.25rem;
+}
+
+.heading {
+  margin-top: 3rem;
   margin-bottom: 0.75rem;
 }
 
