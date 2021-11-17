@@ -6,6 +6,9 @@ module.exports = {
                 light: '#4395BC',
                 DEFAULT: '#227AA3',
                 dark: '#4282A0',
+            },
+            lightGray: {
+                DEFAULT: '#505050',
             }
         },
     }
