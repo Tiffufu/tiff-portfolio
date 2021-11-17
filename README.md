@@ -4,7 +4,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Development](#development)
+- [Contributing](#contributing)
 
 ## About <a name = "about"></a>
 
@@ -33,7 +33,7 @@ While in the project folder, install the project depencencies.
 npm install
 ```
 
-## Development<a name = "development"></a>
+## Contributing<a name = "contributing"></a>
 
 ### Tailwind
 
