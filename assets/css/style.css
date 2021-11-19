@@ -387,9 +387,9 @@ a:hover {
 }
 
 .display-header {
-  font-family: 'Mulish', 'Times New Roman', Times, serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 3.5rem;
   color: #505050;
 }
