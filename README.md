@@ -12,7 +12,7 @@ This project is the public repository of my web portfolio. I may sometimes work 
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 git clone git@github.com:Tiffufu/tiff-portfolio.git
 ```
 
-While in the project folder, install the project depencencies.
+While in the project folder, install the project dependencies.
 
 ```
 npm install
@@ -39,7 +39,7 @@ npm install
 
 This project uses Bootstrap and Tailwind.
 
-When creating customized components, you need to build Tailwind's css using the following command:
+When creating customized components, you need to build Tailwind's CSS using the following command:
 
 ```
  npm run build-css
